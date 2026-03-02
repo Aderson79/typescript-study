@@ -1,5 +1,10 @@
 /* eslint-disable */
 
+/* Deixa-se o TypeScript inferir o tipo da variável, mas também é possível declarar explicitamente
+o tipo usando a anotação de tipo, caso ele não consiga inferir ou para tornar o código mais claro.
+A sintaxe para a anotação de tipo é a seguinte: */
+
+// Variáveis
 let idade: number = 1; // Qualquer valor numérico, seja inteiro, decimal, hexadecimal, octal ou binário.
 let nome: string = 'hello'; // Qualquer string usando aspas simples, duplas.
 let adulto: boolean = true; // true ou false
